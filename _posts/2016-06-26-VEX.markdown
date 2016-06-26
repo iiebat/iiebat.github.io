@@ -19,6 +19,6 @@ VEX的语句模型随着目标机器状态而改变，例如受内存写和寄�
 **2.8 Blocks**  
 一个VEX的Block是一些VEX语句的集合，表示一个扩展的基本块（被称为IRSB，即IR Super Block)
 ### 3.VEX的常用表达式 ###
-![expression](_images/expression.jpg?raw=true)
+![](_images/expression.jpg?raw=true)
 ### 4.VEX的常用语句 ###
-![statement](_images/statement.jpg?raw=true)
+![](_images/statement.jpg?raw=true)
