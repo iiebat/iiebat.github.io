@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introuduction to Our Team
+title: About Our Team
 permalink: /about/
 ---
 Our team comes from Institute of Information Engineering,Chinese Academy of Sciences.
