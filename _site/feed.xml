@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Binary Analysis Team, Institute of Information Engineering</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 26 Jun 2016 08:49:33 -0700</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2016 08:49:33 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>Vex</title>
+        <description>&lt;h2 id=&quot;vex-&quot;&gt;VEX 介绍&lt;/h2&gt;
+
+&lt;h3 id=&quot;vex&quot;&gt;1.为什么使用VEX&lt;/h3&gt;
+
+&lt;p&gt;由于不同的计算机架构的存在差异性，当我们进行二进制代码分析时需要了解各个平台的语言特性，加重了分析人员的负担，因此引入了中间表示（intermediate representation），VEX是其中很重要的一种，它被广泛用在各类二进制分析工具平台上如angr，Valgrind等等，因此本文我们将对VEX进行简略介绍.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;2.基本的概念&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2.1 寄存器&lt;/strong&gt;&lt;br /&gt;
+在VEX的语法中，寄存器的名字不再使用名称，而是使用数字代替。&lt;br /&gt;
+&lt;strong&gt;2.2 内存访问&lt;/strong&gt;  &lt;br /&gt;
+由于不同的体系架构内存访问方式不同，因而VEX必须清晰地将它们表达出来。&lt;br /&gt;
+&lt;strong&gt;2.3 段寻址&lt;/strong&gt;&lt;br /&gt;
+由于一些架构存如x86存在段寻址，因此在中间语言中必须清晰地将它们表达出来。&lt;br /&gt;
+&lt;strong&gt;2.4 表达式&lt;/strong&gt;
+VEX的表达式可以表示内存加载、寄存器读写，数值运算结果。&lt;br /&gt;
+&lt;strong&gt;2.5 操作&lt;/strong&gt;
+VEX的表达式描述了对于VEX表达式的修改操作，这些操作包括：整数运算,浮点运算,位操作等等。&lt;br /&gt;
+&lt;strong&gt;2.6 临时变量&lt;/strong&gt;&lt;br /&gt;
+VEX使用临时变量作为内部寄存器，VEX表达式在使用过程的变量存储在临时变量当中，这些变量从t0开始编号。&lt;br /&gt;
+&lt;strong&gt;2.7 语句&lt;/strong&gt;&lt;br /&gt;
+VEX的语句模型随着目标机器状态而改变，例如受内存写和寄存器写的影响。VEX语句使用VEX表达式来表示它们需要的值。&lt;br /&gt;
+&lt;strong&gt;2.8 Blocks&lt;/strong&gt;&lt;br /&gt;
+一个VEX的Block是一些VEX语句的集合，表示一个扩展的基本块（被称为IRSB，即IR Super Block)&lt;/p&gt;
+
+&lt;h3 id=&quot;vex-1&quot;&gt;3.VEX的常用表达式&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_images/expression.jpg?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vex-2&quot;&gt;4.VEX的常用语句&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_images/statement.jpg?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 26 Jun 2016 00:00:00 -0700</pubDate>
+        <link>/2016/06/26/VEX.html</link>
+        <guid isPermaLink="true">/2016/06/26/VEX.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

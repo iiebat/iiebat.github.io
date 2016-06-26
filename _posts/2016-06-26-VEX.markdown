@@ -1,7 +1,10 @@
-# VEX 介绍 # 
-### 1.为什么使用VEX ###  
+## VEX 介绍 ##
+
+### 1.为什么使用VEX ###
+
 由于不同的计算机架构的存在差异性，当我们进行二进制代码分析时需要了解各个平台的语言特性，加重了分析人员的负担，因此引入了中间表示（intermediate representation），VEX是其中很重要的一种，它被广泛用在各类二进制分析工具平台上如angr，Valgrind等等，因此本文我们将对VEX进行简略介绍.  
-## 2.基本的概念 ###  
+
+### 2.基本的概念 ###  
 **2.1 寄存器**  
 在VEX的语法中，寄存器的名字不再使用名称，而是使用数字代替。  
 **2.2 内存访问**    
@@ -18,7 +21,12 @@ VEX使用临时变量作为内部寄存器，VEX表达式在使用过程的变�
 VEX的语句模型随着目标机器状态而改变，例如受内存写和寄存器写的影响。VEX语句使用VEX表达式来表示它们需要的值。  
 **2.8 Blocks**  
 一个VEX的Block是一些VEX语句的集合，表示一个扩展的基本块（被称为IRSB，即IR Super Block)
+
 ### 3.VEX的常用表达式 ###
-![](_images/expression.jpg?raw=true)
+
+![](../_images/expression.jpg?raw=true)
+
 ### 4.VEX的常用语句 ###
-![](_images/statement.jpg?raw=true)
+
+![](../_images/statement.jpg?raw=true)
+
