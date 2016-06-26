@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Jun 2016 09:04:04 -0700</pubDate>
-    <lastBuildDate>Sun, 26 Jun 2016 09:04:04 -0700</lastBuildDate>
+    <pubDate>Sun, 26 Jun 2016 09:08:05 -0700</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2016 09:08:05 -0700</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -36,12 +36,11 @@ VEX的语句模型随着目标机器状态而改变，例如受内存写和寄�
 一个VEX的Block是一些VEX语句的集合，表示一个扩展的基本块（被称为IRSB，即IR Super Block)&lt;/p&gt;
 
 &lt;h3 id=&quot;vex-1&quot;&gt;3.VEX的常用表达式&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://image.so.com/zv?ch=beauty&amp;amp;t1=595&amp;amp;src=banner_beauty&amp;amp;eid=t01d522eecd8d8a3040.jpg#ch=beauty&amp;amp;t1=595&amp;amp;src=banner_beauty&amp;amp;eid=t01d522eecd8d8a3040.jpg&amp;amp;lightboxindex=0&amp;amp;groupid=2f6f0c6e786f502bae1996ce06936154&amp;amp;itemindex=0&amp;amp;dataindex=1&quot; alt=&quot;hello&quot; title=&quot;hello&quot; /&gt;
-&lt;img src=&quot;images/expression.jpg?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;images/expression.jpg?iiebat=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;vex-2&quot;&gt;4.VEX的常用语句&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/statement.jpg?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;images/statement.jpg?iiebat=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 26 Jun 2016 00:00:00 -0700</pubDate>
