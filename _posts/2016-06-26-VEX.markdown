@@ -24,9 +24,9 @@ VEX的语句模型随着目标机器状态而改变，例如受内存写和寄�
 
 ### 3.VEX的常用表达式 ###
 
-![](../_images/expression.jpg?raw=true)
+![](_images/expression.jpg?raw=true)
 
 ### 4.VEX的常用语句 ###
 
-![](../_images/statement.jpg?raw=true)
+![](_images/statement.jpg?raw=true)
 
