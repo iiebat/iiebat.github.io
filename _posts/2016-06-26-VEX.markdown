@@ -1,4 +1,4 @@
-## VEX 介绍 ##  
+# VEX 介绍 # 
 ###  1.为什么使用VEX  ###  
 由于不同的计算机架构的存在差异性，当我们进行二进制代码分析时需要了解各个平台的语言特性，加重了分析人员的负担，因此引入了中间表示（intermediate representation），VEX是其中很重要的一种，它被广泛用在各类二进制分析工具平台上如angr，Valgrind等等，因此本文我们将对VEX进行简略介绍.  
 ###  2.基本的概念  ###  
@@ -19,6 +19,6 @@ VEX的语句模型随着目标机器状态而改变，例如受内存写和寄�
 **2.8 Blocks**  
 一个VEX的Block是一些VEX语句的集合，表示一个扩展的基本块（被称为IRSB，即IR Super Block)
 ###  3.VEX的常用表达式  ###
-![expression](_images/expression.jpg)
+![expression](https://github.com/iiebat/iiebat.github.io/tree/master/_images/expression.jpg)
 ###  4.VEX的常用语句  ###
-![statement](_images/statement.jpg)
+![statement](https://github.com/iiebat/iiebat.github.io/tree/master/_images/statement.jpg)
