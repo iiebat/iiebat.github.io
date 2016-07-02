@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Jun 2016 09:08:05 -0700</pubDate>
-    <lastBuildDate>Sun, 26 Jun 2016 09:08:05 -0700</lastBuildDate>
+    <pubDate>Sun, 26 Jun 2016 09:21:39 -0700</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2016 09:21:39 -0700</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -36,11 +36,11 @@ VEX的语句模型随着目标机器状态而改变，例如受内存写和寄�
 一个VEX的Block是一些VEX语句的集合，表示一个扩展的基本块（被称为IRSB，即IR Super Block)&lt;/p&gt;
 
 &lt;h3 id=&quot;vex-1&quot;&gt;3.VEX的常用表达式&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;images/expression.jpg?iiebat=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;expression.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;vex-2&quot;&gt;4.VEX的常用语句&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/statement.jpg?iiebat=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;statement.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 26 Jun 2016 00:00:00 -0700</pubDate>
