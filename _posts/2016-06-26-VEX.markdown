@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Test Page
-date:   2015-06-04 13:50:39
-categories: others
+title: VEX
+date:   2016-06-26 13:50:39
 ---
 ##VEX 介绍
 ###1.为什么使用VEX
