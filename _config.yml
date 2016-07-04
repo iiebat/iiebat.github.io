@@ -1,7 +1,7 @@
 title: iiebat
 description: iiebat' Blog
 author: iiebat
-logo: http://aboutashu.com/hcz-jekyll-blog/static/img/avatar.png
+logo: http://iiebat.github.io/iiebat.github.io/static/img/avatar.png
 github: https://github.com/iiebat
 about:
 disqus_shortname: iiebat
@@ -47,7 +47,7 @@ share:
 enableTags: true
 tagarray: []
 
-url: "http://github.com/iiebat"
+url: "http://iiebat.github.io/iiebat.github.io"
 baseurl: "/iiebat.github.io"
 paginate: 20
 per_page: 20
