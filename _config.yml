@@ -3,7 +3,7 @@ description: iiebat' Blog
 author: iiebat
 logo: http://aboutashu.com/hcz-jekyll-blog/static/img/avatar.png
 github: https://github.com/iiebat
-about: IIECAS
+about:
 disqus_shortname: iiebat
 google_analytics: UA-72862926-1
 urls:
