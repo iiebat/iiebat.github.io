@@ -24,6 +24,7 @@ https://github.com/iiebat/iiebat.github.io.git
 cd iiebat.github.io #或者是克隆代码是你自己取的名字目录
 cd _post
 ```
+
 #### 3.2创建文件
 
 命名规范 `年-月-日-名称.md` 如： `2016-06-26-VEX.md`
@@ -64,4 +65,4 @@ git push origin master
 
 ### 5.相关工具
 
-你可能在vim直接编辑看不到实时效果比较郁闷，推荐markdownpad2神器，你有更好的欢迎推荐。*由于markdowpad*是收费的，因为需要破解，可以上网搜搜！
+你可能在vim直接编辑看不到实时效果比较郁闷，推荐markdownpad2,可以安装插件画UML图,流程图,写Latex公式等等，你有更好的欢迎推荐。*由于markdowpad*是收费的，因为需要破解，可以上网搜搜！
