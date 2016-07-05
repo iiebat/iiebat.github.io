@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WriteBlog
-date:   2016-07-25 11:00:39
+date: 2016-07-25 11:00:39
 ---
 
 #博客攻略
