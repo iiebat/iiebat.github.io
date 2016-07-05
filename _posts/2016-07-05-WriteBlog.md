@@ -3,6 +3,7 @@ layout: post
 title: 写一个简单的博客
 date:   2016-06-26 13:50:39
 ---
+
 # 博客攻略
 
 ## 1.安装github
