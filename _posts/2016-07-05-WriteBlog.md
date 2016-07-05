@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 如何写一个博客
-date:   2016-07-05 11:30:39
+title: write a blog
+date:   2016-07-04 11:30:39
 ---
 
 ## 博客攻略
