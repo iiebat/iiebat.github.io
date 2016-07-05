@@ -9,7 +9,7 @@ categories: 入门
 
 ### 1.安装github
 
-安装github并配置相关信息
+安装github并配置相关信息,git参考资料[pro git中文版](/_data/Git.pdf)
 
 ### 2.克隆最新博客代码
 
