@@ -1,8 +1,9 @@
 ---
 layout: post
-title: VEX
+title: WriteBlog
 date:   2016-07-25 11:00:39
 ---
+
 #博客攻略
 ##1.安装github
 安装github并配置相关信息
