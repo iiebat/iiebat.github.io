@@ -2,6 +2,7 @@
 layout: post
 title: 写一个简单的博客
 date:   2016-07-04 11:30:39
+categories: 入门
 ---
 
 ## 博客攻略
@@ -21,7 +22,7 @@ https://github.com/iiebat/iiebat.github.io.git
 ### 3.1进入写作目录
 
 ```
-cd iiebat.github.io #或者是克隆代码是你自己取的名字目录
+cd iiebat.github.io #或者是克隆代码时你自己取的名字目录
 cd _post
 ```
 
@@ -38,7 +39,9 @@ cd _post
 layout: post
 title: VEX
 date: 2016-06-26 13:50:39
+categories: 程序分析
 ---
+'categories为博客类别,可以帮助更好的进行分类管理博客'
 ###'请注意时间:可能是美国时间,比此时时间要早,否则无法显示,可以填的日期早一天'
 ```
 
@@ -65,4 +68,4 @@ git push origin master
 
 ### 5.相关工具
 
-你可能在vim直接编辑看不到实时效果比较郁闷，推荐markdownpad2,可以安装插件画UML图,流程图,写Latex公式等等，你有更好的欢迎推荐。*由于markdowpad*是收费的，因为需要破解，可以上网搜搜！
+你可能在vim直接编辑看不到实时效果比较郁闷，推荐markdownpad2,可以安装插件画UML图,流程图,写Latex公式等等，你有更好的欢迎推荐。由于*markdowpad*是收费的，因为需要破解，可以上网搜搜！
