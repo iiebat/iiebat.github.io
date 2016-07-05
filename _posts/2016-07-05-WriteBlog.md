@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Write a Blog
-date:   2016-07-05 11:30:39
+title: VEX
+date:   2016-06-26 13:50:39
 ---
-
-## VEX 介绍
-
 
 ## 博客攻略
 
