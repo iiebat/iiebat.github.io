@@ -1,6 +1,6 @@
 ---
 layout: post
-title: write a blog
+title: 写一个简单的博客
 date:   2016-07-04 11:30:39
 ---
 
