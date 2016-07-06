@@ -17,7 +17,7 @@ A simple reverse me that takes a key as a command line argument and checks it ag
 
 #### 2.1 整体逻辑
 
-![the whole logic](/Users/pengjiaqi/Documents/iie/binary_analyses/fairlight/whole_logic.png)
+![the whole logic](/static/img/whole_logic.png)
 
 
 
@@ -29,7 +29,7 @@ A simple reverse me that takes a key as a command line argument and checks it ag
 
 main函数首先会验证key的长度，是否为14个字节。若是则进入check过程；若不是则调用denied_access退出程序。流程见下图：
 
-![main](/Users/pengjiaqi/Documents/iie/binary_analyses/fairlight/main_len.png)
+![main](/static/img/main_len.png)
 
 
 
@@ -37,7 +37,7 @@ main函数首先会验证key的长度，是否为14个字节。若是则进入ch
 
 code变量：处于bss段，即未初始化的变量，如下图所示。由于共复制了14个有效字符，故code变量后的13个字节位置均被赋值，其中每个标记处即表示一个字节，与输入的key一一对应。这些值将会在各个check_n函数中使用到。
 
-![code](/Users/pengjiaqi/Documents/iie/binary_analyses/fairlight/code.png)
+![code](/static/img/code.png)
 
 
 
@@ -45,7 +45,7 @@ code变量：处于bss段，即未初始化的变量，如下图所示。由于�
 
 主要汇编代码：
 
-![check_0](/Users/pengjiaqi/Documents/iie/binary_analyses/fairlight/check_0.png)
+![check_0](/static/img/check_0.png)
 
 其中cs:code、cs:byte_6030BD等即为上述bss中的字节，与输入变量key对应。
 
